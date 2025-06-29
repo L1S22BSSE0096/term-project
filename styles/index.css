@@ -70,16 +70,16 @@ body {
 .cta-btn {
   display: inline-block;
   padding: 12px 28px;
-  background: linear-gradient(to right, #4b6cb7, #182848);
+  background-color: #4b6cb7;
   color: white;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .cta-btn:hover {
-  background: linear-gradient(to right, #5d82db, #1d3e8a);
+  background-color: #355aa3;
 }
 
 .hero-img img {
@@ -109,25 +109,21 @@ body {
 .feature-box {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06); /* FIXED */
+  /* 🧼 Simple alternative to rgba box-shadow */
+  box-shadow: 0 2px 5px #ddd;
   padding: 20px;
   width: 280px;
 }
 
-@media (max-width: 768px) { /* FIXED */
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-links a {
-    margin: 10px;
-  }
+.feature-box h3 {
+  color: #4b6cb7;
+  margin-bottom: 10px;
 }
 
+.feature-box p {
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  text-
