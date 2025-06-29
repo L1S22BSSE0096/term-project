@@ -10,9 +10,7 @@
     "property-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
     "unit-no-unknown": true,
-    "font-family-name-quotes": "never-unless-keyword",
-    "color-function-notation": "modern",
-    "alpha-value-notation": "percentage",
-    "media-feature-range-notation": "range"
+    "font-family-name-quotes": "never",
+    "media-feature-range-notation": "prefix"
   }
 }
