@@ -7,9 +7,12 @@
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
     "font-family-no-duplicate-names": true,
-    "no-extra-semicolons": true,
     "property-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
-    "unit-no-unknown": true
+    "unit-no-unknown": true,
+    "font-family-name-quotes": "never-unless-keyword",
+    "color-function-notation": "modern",
+    "alpha-value-notation": "percentage",
+    "media-feature-range-notation": "range"
   }
 }
