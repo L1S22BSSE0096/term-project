@@ -9,8 +9,6 @@
     "font-family-no-duplicate-names": true,
     "property-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
-    "unit-no-unknown": true,
-    "font-family-name-quotes": "never",
-    "media-feature-range-notation": "prefix"
+    "unit-no-unknown": true
   }
 }
