@@ -1,5 +1,4 @@
 {
-  "extends": "stylelint-config-standard",
   "rules": {
     "block-no-empty": true,
     "color-no-invalid-hex": true,
@@ -10,8 +9,6 @@
     "property-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
     "unit-no-unknown": true,
-    "length-zero-no-unit": true,
-
-    "media-feature-range-notation": null
+    "length-zero-no-unit": true
   }
 }
