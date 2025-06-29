@@ -109,7 +109,7 @@ body {
 .feature-box {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 8px color-mix(in srgb, black 6%, transparent);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
   padding: 20px;
   width: 280px;
 }
@@ -131,7 +131,8 @@ body {
   font-size: 0.9rem;
 }
 
-@media (width <= 768px) {
+/* Responsive */
+@media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
