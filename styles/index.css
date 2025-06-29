@@ -7,7 +7,7 @@
 
 /* Font and base styling */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   background-color: #f8f9fb;
   color: #333;
   line-height: 1.6;
@@ -109,7 +109,7 @@ body {
 .feature-box {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 8px color-mix(in srgb, black 6%, transparent);
   padding: 20px;
   width: 280px;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
