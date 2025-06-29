@@ -11,29 +11,29 @@ jobs:
     environment: staging-env
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Lint HTML files
-      run: npx htmlhint src/
+      - name: Lint HTML files
+        run: npx htmlhint src/
     
-    - name: Lint CSS files
-      run: npx stylelint "styles/**/*.css"
+      - name: Lint CSS files
+        run: npx stylelint "styles/**/*.css"
 
-    - name: Build with Parcel
-      run: npm run build
+      - name: Build with Parcel
+        run: npx parcel build src/index.html --dist-dir dist
 
-    - name: Deploy to staging environment
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        destination_branch: gh-pages-staging
+      - name: Deploy to staging environment
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_branch: gh-pages-staging
