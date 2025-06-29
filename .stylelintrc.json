@@ -10,12 +10,6 @@
     "property-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
     "unit-no-unknown": true,
-    "length-zero-no-unit": true,
-    "shorthand-property-no-redundant-values": true,
-    "selector-type-no-unknown": true,
-
-    "color-function-notation": null,
-    "alpha-value-notation": null,
-    "media-feature-range-notation": null
+    "length-zero-no-unit": true
   }
 }
