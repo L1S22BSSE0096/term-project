@@ -109,7 +109,6 @@ body {
 .feature-box {
   background-color: white;
   border-radius: 8px;
-  /* 🧼 Simple alternative to rgba box-shadow */
   box-shadow: 0 2px 5px #ddd;
   padding: 20px;
   width: 280px;
